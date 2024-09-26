@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1">
+    <meta name="author" content="Myles Reid, Oluwajuwon Michael Shuaibu, David Sommerville, Samuel Reutcky">
+    <meta name="description" content="My Web Project">
+    <meta name="keywords" content="post-secondary, college, university">
+    <title>Contact us | Cedar Valley University</title>
+    <link rel="icon" href="./src/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
+    <link rel="stylesheet" href="./src/css/contact.css">
+  </head>
+  <body>
+    <header>
+      <div class="container flex flex-between relative">
+        <div class="flex center">
+          <div class="crest">
+            <img src="./src/img/favicon.png" alt="Cedar Valley University" />
+          </div>
+          <div class="uni-name">
+            <a href="./index.html">Cedar Valley University</a>
+          </div>
+        </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <i class="fas fa-bars"></i>
+        </label>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="#">Campus Life</a></li>
+            <li><a class="enroll-now" href="#">Enroll now</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="hero-banner flex center">
+        <h2>Contact Us</h2>
+      </div> 
+      <div class="container">
+        <div class="item">
+          <div class="submit-form">
+            <h4 class="third-text">Send us a message</h4>
+            <form>
+              <div class="flex flex-column input-box names">
+                <div class="names flex input-box">
+                  <div class="half-width">
+                    <label for="name">First Name</label>
+                    <input 
+                      type="text" 
+                      class="input" 
+                      required placeholder="John"
+                    >
+                  </div>
+                  <div class="half-width">
+                      <label for="name">Last Name</label>
+                      <input 
+                        type="text" 
+                        class="input" 
+                        required placeholder="Rebel"
+                      >
+                  </div>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input 
+                      type="email" 
+                      class="input" 
+                      required placeholder="Johnrebel@gmail.com"
+                    >
+                </div>
+                <div class="input-box">
+                    <label for="phone">Phone</label>
+                    <input 
+                      type="tel" 
+                      class="input" 
+                      required placeholder="123 456 7890"
+                    >
+                </div>
+                <div class="input-box">
+                    <label for="message">Message</label>
+                    <textarea 
+                      name="message" 
+                      class="input" 
+                      required cols="30" 
+                      rows="10" 
+                      placeholder="Enter your message"
+                    >
+                    </textarea>
+                </div>
+                <input type="submit" value="SUBMIT" class="easeinout">
+                <!-- add </div> -->
+              </div>
+            </form>
+          </div>
+          <div class="contact">
+            <div>
+              <p class="contact-description">
+                We are here to assist you with any inquiries you may
+                have. Reach out to us through the
+                contact form or directly using the information
+                provided.
+              </p>
+            </div>
+            <div class="contact-info flex">
+              <div>
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Academic Way, Cedarwood, CV</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>
+                      <a href="mailto:info@cedarvalleyuniversity.com">
+                        info@CedarValleyUniversity.com
+                      </a>
+                    </p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-globe"></i>
+                    <p>
+                      <a href="https://cedarvalleyuniversity.com">
+                        www.CedarValleyUniversity.com
+                      </a>
+                    </p>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-clock"></i>
+                    <p>Office Hours: Mon-Fri, 9AM-5PM</p>
+                </div>
+              </div>
+              <div class="map">
+                <img src="./src/img/map.png" alt="Map">
+              </div>
+            </div>                    
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="container footer-columns row flex flex-row center">
+        <div class="col footer-address">
+          <h3>Cedar Valley University</h3>
+          <p>123 Academic Way</p>
+          <p>Cedarwood, CV</p>
+          <P>45678</P>
+          <p>+1(204) 555-1234</p>
+          <a href="./contact.html">Contact us &gt;</a>
+        </div>
+        
+          <div class="col footer-info">
+            <h4>Information for</h4>
+            <div><a href="#">Alumni</a></div>
+            <div><a href="#">Community</a></div>
+            <div><a href="#">Current Students</a></div>
+            <div><a href="#">Faculty and Staff</a></div>
+            <div><a href="#">Future Students</a></div>
+            <div><a href="#">International Students</a></div>
+            <div><a href="#">Parents</a></div>
+          </div>
+          <div class="col footer-resources">
+            <h4>Resources</h4>
+            <div><a href="#">A-Z Index</a></div>
+            <div><a href="#">Directory</a></div>
+            <div><a href="#">Email</a></div>
+            <div><a href="#">Maps</a></div>
+            <div><a href="#">MyLearning</a></div>
+            <div><a href="#">WebAdvisor</a></div>
+          </div>
+          <div class="col col-4 flex gap-10 center footer-social icons">
+            <div class="row-1 gap-10 flex center">
+              <div>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://facebook.com" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://youtube.com" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+              <div>
+                <a href="https://x.com" target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </div>
+              </div>
+            <div class="row-3 text-center">
+              <a class="donate-button" href="">DONATE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
