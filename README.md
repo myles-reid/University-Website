@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/img/favicon.png" width="300">
+  <img src="./src/img/img.README/title.png">
 </p>
 
 ---
