@@ -12,23 +12,37 @@ things function without the use of JavaScript.
 
 ---
 
-## Authors
+## Features
+There is no JavaScript in this project. Everything was managed with the use of HTML 
+and CSS only. 
 
-Thanks to the others that helped me on this, your input will not go unnoticed.
+Notable features in this project include:  
+  * A functioning hamburger menu
+  * A carousel (albeit basic and simple)
+  * Responsive
+  * Custom designed crest
+  * Internal linking
 
-- [@mrshuaibu](https://github.com/mrshuaibu)
-- [@SamuelReutcky](https://github.com/SamuelReutcky)
-- [David Sommerville](https://github.com) 
 
 ---
 
-### Screenshots
+## Screenshots
 
 ![Index page](./src/img/img.README/index.png)<br/><br/>
 ![About page](./src/img/img.README/about.png)<br/><br/>
 ![Contact page](./src/img/img.README/contact.png)<br/><br/>
 
 <br/>
+
+---
+
+## Acknowledgements
+
+Thanks to the others that helped on this.
+
+- [@mrshuaibu](https://github.com/mrshuaibu)
+- [@SamuelReutcky](https://github.com/SamuelReutcky)
+- [@dave-sommerville](https://github.com/dave-sommerville) 
 
 <p float="left">
   <img 
