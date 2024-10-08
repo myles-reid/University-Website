@@ -208,6 +208,10 @@ header {
   .achievements {
     flex-wrap: wrap;
   }
+
+  .achieve-badge {
+    width: 100svw;
+  }
 }
 
 /*--------------------------------*/
@@ -383,7 +387,7 @@ article p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .stat-item {
@@ -413,7 +417,7 @@ article p {
   z-index: 1;
   overflow: hidden;
 
-  h2 {
+  .enough {
     font-weight: 800;
     font-size: 40px;
     letter-spacing: 3px;
@@ -449,8 +453,8 @@ article p {
 
 /* Responsive styles */
 @media screen and (max-width: 780px) {
-  h2 {
-    font-size: 25px;
+  .enough {
+    font-size: 22px;
   }
 
   .stat-item {
@@ -459,8 +463,8 @@ article p {
 }
 
 @media screen and (max-width: 480px) {
-  h2 {
-    font-size: 20px;
+  .enough {
+    font-size: 18px;
   }
 
   .stat-item {

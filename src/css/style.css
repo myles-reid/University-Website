@@ -265,18 +265,18 @@ main {
   margin: 25px;
 }
 
-.sections {
+/* .sections {
   padding: 15px 0;
   margin-top: 0;
-}
+} */
 
 .row {
-  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .cols {
   flex: 0 0 auto;
-  height: 550px;
+  height: 475px;
   width: calc(25% - 20px);
   border-radius: 5px;
   background-color: #fff;
@@ -296,40 +296,33 @@ main {
   border-radius: 5px;
 }
 
-.one {
+.study-content {
+  text-align: center;
   padding: 0 25px;
   flex-grow: 1;
   overflow: hidden;
 }
 
-.sections button {
+.button {
+  color: #fff;
+  font-weight: 500;
   padding: 10px;
   width: 150px;
   border-radius: 50px;
   background-color: var(--app-color-primary);
-  margin-left: 25px;
-  align-self: flex-start;
   font-size: 16px;
 }
 
-.sections button:hover {
+.button:hover {
   background-color: var(--app-color-secondary);
 }
 
-.two {
+.study-title {
+  text-align: center;
   margin-top: 15px;
+  margin-bottom: 10px;
   font-size: 20px;
-  font-weight: 600;
-}
-
-button a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-}
-
-button:hover {
-  background-color: #e2e2e2;
+  font-weight: 700;
 }
 
 .col p:first-of-type {
