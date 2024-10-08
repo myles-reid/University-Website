@@ -24,9 +24,9 @@ Thanks to the others that helped me on this, your input will not go unnoticed.
 
 ### Screenshots
 
-![Index page](./src/img/img.README/index.png)<br/>
-![About page](./src/img/img.README/about.png)<br/>
-![Contact page](./src/img/img.README/contact.png)<br/>
+![Index page](./src/img/img.README/index.png)<br/><br/>
+![About page](./src/img/img.README/about.png)<br/><br/>
+![Contact page](./src/img/img.README/contact.png)<br/><br/>
 
 <br/>
 
